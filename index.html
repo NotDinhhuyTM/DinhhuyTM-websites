@@ -1,13 +1,79 @@
-# DinhhuyTM-websites
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Pages Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        /* Fixed navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2c3e50;
+            padding: 15px 50px;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .nav-links a:hover {
+            color: #1abc9c;
+        }
+        /* Content section */
+        .description {
+            text-align: center;
+            padding: 100px 20px 20px;
+            margin-top: 60px; /* Prevent overlap with navbar */
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is a simple web page hosted on GitHub Pages.</p>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">DinhhuyTM</div>
+        <ul class="nav-links">
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Worlds</a></li>
+            <li><a href="#">Schematic</a></li>
+            <li><a href="#">Texture Pack</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="description">
+        <h1>Welcome to My Website!</h1>
+        <p>This is where you can find resources and tutorials about SourcesSchematic, and Texture Packs, almost evertything about my Account.</p>
+    </div>
 </body>
 </html>
